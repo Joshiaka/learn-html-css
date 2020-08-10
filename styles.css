@@ -1,0 +1,29 @@
+/* style to h1 adds color, background-color and aligns the text to left as bellow */
+h1 {
+    color : yellowgreen;
+    text-align : left;
+    background-color: blue;
+    
+}
+
+/* style to div adds border and margin to this div content as bellow */
+div {
+    border : 1px solid black;
+    margin: 10px;
+}
+
+/* the tag which uses this class joshi will have padding, color, text-alignment and background-color as bellow */
+.joshi{
+    padding: 10px;
+    color : white;
+    text-align: center;
+    background-color:aqua;
+}
+/* the tag which uses this id hani will have font-family, font-size and background-color as bellow */
+#hani{
+    font-family: verdena;
+    font-size: 20px;
+    background-color: red;
+}
+
+/* if a tag is using both id and class: styles in id takes the precedence over styles in class */
